@@ -14,7 +14,6 @@ jobs:
       image: node:8
     steps:
     - uses: actions/checkout@v1
-    - uses: actions/setup-node@v1
     - run: 
         node -v
     
