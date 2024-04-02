@@ -11,7 +11,7 @@ jobs:
   job1-build:
     runs-on: ubuntu-latest
     container:
-      image: node:8
+      image: node:10
     steps:
     - uses: actions/checkout@v1
     - run: 
